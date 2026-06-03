@@ -131,6 +131,7 @@ app.delete("/api/produits/:id", async (req, res) => {
   }
 });
 
+
 app.listen(PORT, () => {
-  console.log(`🚀 Serveur démarré : http://localhost:${PORT}`);
+  console.log(`Serveur démarré sur le port ${PORT}`);
 });
